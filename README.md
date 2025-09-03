@@ -1,1 +1,59 @@
-# learning-java
+# Learning Java
+
+## Syllabus
+- [ ] Introduction to Java
+    - [X] Introduction
+    - [X] How it works
+    - [X] Setup Installation
+    - [X] Input and Output in Java
+    - [x] Conditionals & Loops in Java
+        - [x] if-else
+        - [x] loops
+        - [x] Switch statements
+    - [x] Data-types
+    - [ ] Coding best practices
+- [ ] Functions
+    - [ ] Introduction
+    - [ ] Scoping in Java
+    - [ ] Shadowing
+    - [ ] Variable Length Arguments
+    - [ ] Overloading
+- [ ] Arrays
+    - [ ] Introduction
+    - [ ] Memory management
+    - [ ] Input and Output
+    - [ ] ArrayList Introduction
+- [ ] Strings
+    - [ ] Introduction
+    - [ ] How Strings work
+    - [ ] Comparison of methods
+    - [ ] Operations in Strings
+    - [ ] StringBuilder in Java
+    - [ ] StringBuffer
+- [ ] Object Oriented Programming
+    - [ ] Introduction
+    - [ ] Classes & its instances
+    - [ ] this keyword in Java
+    - [ ] Properties
+        - [ ] Inheritance
+        - [ ] Abstraction
+        - [ ] Polymorphism
+        - [ ] Encapsulation
+    - [ ] Overloading & Overriding
+    - [ ] Static & Non-Static
+    - [ ] Packages
+    - [ ] Access Control
+    - [ ] Interfaces
+    - [ ] Abstract Classes
+    - [ ] Annotations
+    - [ ] Singleton Class
+    - [ ] final, finalize, finally
+    - [ ] Object Cloning
+    - [ ] Object Class
+    - [ ] Generics
+    - [ ] Exception Handling
+    - [ ] Collections Framework
+    - [ ] Vector Class
+    - [ ] Lambda Expression
+    - [ ] Enums
+- [ ] File handling
