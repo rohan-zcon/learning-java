@@ -12,12 +12,12 @@
         - [x] Switch statements
     - [x] Data-types
     - [ ] Coding best practices
-- [ ] Functions
-    - [ ] Introduction
-    - [ ] Scoping in Java
-    - [ ] Shadowing
-    - [ ] Variable Length Arguments
-    - [ ] Overloading
+- [x] Functions
+    - [x] Introduction
+    - [x] Scoping in Java
+    - [x] Shadowing
+    - [x] Variable Length Arguments
+    - [x] Overloading
 - [ ] Arrays
     - [ ] Introduction
     - [ ] Memory management
