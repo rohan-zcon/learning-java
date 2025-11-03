@@ -18,11 +18,11 @@
     - [x] Shadowing
     - [x] Variable Length Arguments
     - [x] Overloading
-- [ ] Arrays
-    - [ ] Introduction
-    - [ ] Memory management
-    - [ ] Input and Output
-    - [ ] ArrayList Introduction
+- [x] Arrays
+    - [x] Introduction
+    - [x] Memory management
+    - [x] Input and Output
+    - [x] ArrayList Introduction
 - [ ] Strings
     - [ ] Introduction
     - [ ] How Strings work
