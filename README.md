@@ -23,13 +23,13 @@
     - [x] Memory management
     - [x] Input and Output
     - [x] ArrayList Introduction
-- [ ] Strings
-    - [ ] Introduction
-    - [ ] How Strings work
-    - [ ] Comparison of methods
-    - [ ] Operations in Strings
-    - [ ] StringBuilder in Java
-    - [ ] StringBuffer
+- [x] Strings
+    - [x] Introduction
+    - [x] How Strings work
+    - [x] Comparison of methods
+    - [x] Operations in Strings
+    - [x] StringBuilder in Java
+    - [x] StringBuffer
 - [ ] Object Oriented Programming
     - [ ] Introduction
     - [ ] Classes & its instances

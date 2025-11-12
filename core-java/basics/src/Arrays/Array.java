@@ -6,7 +6,6 @@ public class Array {
 //        datatype[] variable_name = new datatype[size]
 //        store rnos
         int[] rnos = new int[5];
-
         for (int i = 0; i < rnos.length; i++) {
             System.out.println(rnos[i]);
         }
