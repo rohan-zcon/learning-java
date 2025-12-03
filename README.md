@@ -31,9 +31,9 @@
     - [x] StringBuilder in Java
     - [x] StringBuffer
 - [ ] Object Oriented Programming
-    - [ ] Introduction
-    - [ ] Classes & its instances
-    - [ ] this keyword in Java
+    - [x] Introduction
+    - [x] Classes & its instances
+    - [x] this keyword in Java
     - [ ] Properties
         - [ ] Inheritance
         - [ ] Abstraction
