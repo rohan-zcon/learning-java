@@ -1,4 +1,4 @@
-package OOPs.singletonCls;
+package singletonCls;
 
 public class Main {
     public static void main(String[] args) {

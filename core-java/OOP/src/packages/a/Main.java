@@ -1,4 +1,4 @@
-package OOPs.packages.a;
+package packages.a;
 
 import static OOPs.packages.b.Greeting.message;
 

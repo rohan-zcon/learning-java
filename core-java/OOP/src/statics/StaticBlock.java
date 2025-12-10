@@ -1,4 +1,4 @@
-package OOPs.statics;
+package statics;
 
 public class StaticBlock {
 //    initialise static variables using StaticBlock

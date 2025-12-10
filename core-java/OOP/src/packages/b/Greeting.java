@@ -1,4 +1,4 @@
-package OOPs.packages.b;
+package packages.b;
 
 public class Greeting {
     public static void message(String name){

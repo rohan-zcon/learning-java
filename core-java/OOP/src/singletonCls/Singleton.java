@@ -1,4 +1,4 @@
-package OOPs.singletonCls;
+package singletonCls;
 
 // Class of which only one object can be created are Singleton class.
 // So we shouldnot allow the user to call Constructor

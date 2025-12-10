@@ -1,4 +1,4 @@
-package OOPs.statics;
+package statics;
 
 public class StaticHuman {
     int age;

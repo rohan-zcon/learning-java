@@ -1,5 +1,3 @@
-package OOPs;
-
 public class Introduction {
     public static void main(String[] args) {
         Student defaultStu = new Student();
