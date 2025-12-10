@@ -40,13 +40,13 @@
         - [ ] Polymorphism
         - [ ] Encapsulation
     - [ ] Overloading & Overriding
-    - [ ] Static & Non-Static
-    - [ ] Packages
+    - [x] Static & Non-Static
+    - [x] Packages
     - [ ] Access Control
     - [ ] Interfaces
     - [ ] Abstract Classes
     - [ ] Annotations
-    - [ ] Singleton Class
+    - [x] Singleton Class
     - [ ] final, finalize, finally
     - [ ] Object Cloning
     - [ ] Object Class
