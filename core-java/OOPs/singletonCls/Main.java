@@ -8,4 +8,4 @@ public class Main {
         Singleton o2 = Singleton.getInstance();
         Singleton o3 = Singleton.getInstance();
     }
-} 
+}
