@@ -34,12 +34,12 @@
     - [x] Introduction
     - [x] Classes & its instances
     - [x] this keyword in Java
-    - [ ] Properties
-        - [ ] Inheritance
-        - [ ] Abstraction
-        - [ ] Polymorphism
-        - [ ] Encapsulation
-    - [ ] Overloading & Overriding
+    - [x] Properties
+        - [x] Inheritance
+        - [x] Abstraction
+        - [x] Polymorphism
+        - [x] Encapsulation
+    - [x] Overloading & Overriding
     - [x] Static & Non-Static
     - [x] Packages
     - [ ] Access Control

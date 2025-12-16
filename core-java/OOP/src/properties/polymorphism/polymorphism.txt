@@ -1,0 +1,86 @@
+Poly means "Many" and morphism means "ways of representing"
+types of polymorphism-
+
+Compiled time/static: can be achieved bymethod overloading, which method to run happens at compile time
+Runtime/dynamic: can be achieved by method overriding, which method to runs happens at run time
+
+Overloading vs Overriding
+They both allow methods to perform different behaviors but same name, supporting polymorphism.
+Overloading (at compile time):
+    Multiple methods in same class, same name, diff return type or signature
+Overriding (at run time):
+    Redefining superclass method in subclass with same signature. JVM calls method based on Object type.
+
+UPCASTING:
+Basically is typecasting of child object to a parent object. This is done implicitly.
+This gives the flexibility of accessing parent class members
+but only selective child class members are accessible (like Overridden methods etc)
+
+DOWNCASTING:
+Typecasting of parent object to a child object. This cannot be done implicitly.
+
+Example
+// Upcasting Vs Downcasting
+
+// Parent class
+class Parent {
+    String name;
+
+    // A method which prints the
+    // signature of the parent class
+    void method()
+    {
+        System.out.println("Method from Parent");
+    }
+}
+
+// Child class
+class Child extends Parent {
+    int id;
+
+    // Overriding the parent method
+    // to print the signature of the
+    // child class
+    @Override void method()
+    {
+        System.out.println("Method from Child");
+    }
+}
+
+// Demo class to see the difference
+// between upcasting and downcasting
+public class Demo {
+
+    public static void main(String[] args)
+    {
+        // Upcasting
+        Parent p = new Child();
+        p.name = "Rohan";
+
+        //Printing the parentclass name
+        System.out.println(p.name);
+        //parent class method is overridden method hence child class will be executed
+        p.method();
+        // This variable is not accessible
+        p.id = 1;
+
+        // Trying to Downcasting Implicitly
+        // Child c = new Parent(); - > compile time error
+
+        // Downcasting Explicitly
+        Child c = (Child)p;
+
+        c.id = 1;
+        System.out.println(c.name);
+        System.out.println(c.id);
+        c.method();
+    }
+}
+
+Java determines which method to call during run-time by a mechanism called, Dynamic Method Dispatch.
+The call to a overridden method is resolved at a run-time rather than compile time
+
+More detailed explanation
+https://www.geeksforgeeks.org/java/upcasting-vs-downcasting-in-java/
+https://www.geeksforgeeks.org/java/dynamic-method-dispatch-runtime-polymorphism-java/
+
