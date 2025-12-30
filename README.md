@@ -42,14 +42,14 @@
     - [x] Overloading & Overriding
     - [x] Static & Non-Static
     - [x] Packages
-    - [ ] Access Control
-    - [ ] Interfaces
-    - [ ] Abstract Classes
-    - [ ] Annotations
+    - [x] Access Control
+    - [x] Interfaces
+    - [x] Abstract Classes
+    - [x] Annotations
     - [x] Singleton Class
     - [ ] final, finalize, finally
     - [ ] Object Cloning
-    - [ ] Object Class
+    - [x] Object Class
     - [ ] Generics
     - [ ] Exception Handling
     - [ ] Collections Framework
