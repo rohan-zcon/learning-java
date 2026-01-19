@@ -5,11 +5,11 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-class Student{
+class Student {
     private int id;
     private String name;
 
-    public Student(int id, String name){
+    public Student(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -63,11 +63,11 @@ public class HashMapDemo {
         hMap.put(3, "Rohan");
         hMap.put(5, "Soham");
         System.out.println("hMap: " + hMap);
-        System.out.println("hMap at 3: "+ hMap.get(3));
+        System.out.println("hMap at 3: " + hMap.get(3));
         Set<Integer> keys = hMap.keySet();
         Set<Map.Entry<Integer, String>> allEntries = hMap.entrySet();
         for (Map.Entry<Integer, String> eachEntry : allEntries) {
-            System.out.println("Each entry: "+ eachEntry);
+            System.out.println("Each entry: " + eachEntry);
         }
 
 
@@ -80,8 +80,8 @@ public class HashMapDemo {
         studentMarks.put("Rohan", 89); // hashCode1 --> index1 of internal array to store data
         studentMarks.put("Shubham", 79); // hashCode2 --> index2 of internal array to store data
         studentMarks.put("Rohan", 99); // hashCode1 --> index1 oterf internal array
-                                        // but data is already present. using the .equals() method it checks the strings
-                                        // now even the strings are equal so it REPLACES it. if the string were not equal it would be a collision case
+        // but data is already present. using the .equals() method it checks the strings
+        // now even the strings are equal so it REPLACES it. if the string were not equal it would be a collision case
         System.out.println("Size of studentMarks map:  " + studentMarks.size());
         System.out.println("Marks of Rohan: " + studentMarks.get("Rohan"));
 
